@@ -32,6 +32,7 @@ class UserTableSeeder extends Seeder
         $user->name = 'Alex';
         $user->email_verified_at = now();
         $user->email = 'alex@example.com';
+        // $user-password = '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi';
         $user->save();
     }
 }
